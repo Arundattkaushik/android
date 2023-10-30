@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".HomePage">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="32dp"
+            android:columnCount="2"
+            android:rowCount="5">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_two_number_hcf"
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="20dp"
+                android:layout_margin="3dp"
+                android:padding="4dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="1dp"
+                        android:text="2
+                        Number HCF"
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:background="@color/white"/>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_three_number_hcf"
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="20dp"
+                android:layout_margin="3dp"
+                android:padding="4dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="1dp"
+                    android:text="3
+                    Number HCF"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:background="@color/white"/>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_two_number_lcm"
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="20dp"
+                android:layout_margin="3dp"
+                android:padding="4dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="1dp"
+                    android:text="2
+                    Number LCM"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:background="@color/white"/>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_three_number_lcm"
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="20dp"
+                android:layout_margin="3dp"
+                android:padding="4dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="1dp"
+                    android:text="3
+                    Number LCM"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:background="@color/white"/>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_prime_factor_of_number"
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="20dp"
+                android:layout_margin="3dp"
+                android:padding="4dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="1dp"
+                    android:text="Find Prime
+                                    Factor of a Number"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:background="@color/white"/>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_check_divisibility_of_number"
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="20dp"
+                android:layout_margin="3dp"
+                android:padding="4dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="1dp"
+                    android:text="Check divisiblity
+                                    of a Number"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:background="@color/white"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+    </ScrollView>
+
+
+</FrameLayout>

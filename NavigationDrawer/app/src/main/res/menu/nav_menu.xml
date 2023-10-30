@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/nav_group_one" android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_item_first"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/nav_item_one" />
+
+        <item
+            android:id="@+id/nav_item_second"
+            android:icon="@drawable/e_mail_icon"
+            android:title="@string/nav_item_two" />
+
+        <item
+            android:id="@+id/nav_item_third"
+            android:icon="@drawable/sent_email"
+            android:title="@string/nav_item_three" />
+
+        <item
+            android:id="@+id/nav_item_forth"
+            android:icon="@drawable/draft_emails"
+            android:title="@string/nav_item_four" />
+
+    </group>
+
+    <group android:id="@+id/nav_group_two" android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_item_fifth"
+            android:icon="@drawable/account_settings"
+            android:title="@string/account_settings" />
+
+        <item
+        android:id="@+id/nav_item_sixth"
+        android:icon="@drawable/baseline_share_24"
+        android:title="@string/share_app" />
+
+    </group>
+
+</menu>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Phone</string>
+    <string name="contact_icon">Contact Icon</string>
+    <string name="contact_title">Contact Title</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="add_button">Add Contact</string>
+    <string name="add_button_dialog_box">Add</string>
+    <string name="name_hint">Enter Name</string>
+    <string name="number_hint">Enter Number</string>
+    <string name="update_dialog_title">Update Contact</string>
+    <string name="update_contact">Update Contact</string>
+    <string name="delete_dialog_box_text">Delete Contact</string>
+    <string name="delete_dialog_confirmation_text">Are you sure you want to delete?</string>
+</resources>

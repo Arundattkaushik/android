@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home">Home</string>
+    <string name="user_name">User Name</string>
+    <string name="user_icon_description">User Name</string>
+    <string name="user_email">User Email</string>
+    <string name="nav_item_one">Home</string>
+    <string name="nav_item_two">Inbox</string>
+    <string name="nav_item_three">Sent</string>
+    <string name="nav_item_four">Draft</string>
+    <string name="account_settings">Settings</string>
+    <string name="share_app">Share</string>
+    <string name="open_drawer">OpenDrawer</string>
+    <string name="close_drawer">CloseDrawer</string>
+</resources>

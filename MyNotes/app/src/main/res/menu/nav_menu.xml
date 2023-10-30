@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/notes_section"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/create_note"
+            android:icon="@drawable/notes_24px"
+            android:title="@string/nav_create_notes" />
+
+        <item
+            android:id="@+id/draft_notes"
+            android:icon="@drawable/draft_24px"
+            android:title="@string/nav_draft_note" />
+
+        <item
+            android:id="@+id/saved_notes"
+            android:icon="@drawable/save_24px"
+            android:title="@string/nav_saved_note" />
+
+        <item
+            android:id="@+id/deleted_notes"
+            android:icon="@drawable/delete_24px"
+            android:title="@string/nav_deleted_notes" />
+
+    </group>
+
+    <group
+        android:id="@+id/settings_app_section"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/settings_icon"
+            android:icon="@drawable/settings_24px"
+            android:title="@string/nav_app_settings" />
+
+        <item
+            android:id="@+id/about_app_icon"
+            android:icon="@drawable/info_24px"
+            android:title="@string/nav_app_about_app" />
+
+    </group>
+
+
+    <item
+        android:title="@string/nav_share">
+        <menu>
+            <item
+                android:id="@+id/share_twitter"
+                android:title="@string/nav_share_twitter"
+                android:icon="@drawable/twitter"/>
+        </menu>
+
+    </item>
+
+</menu>

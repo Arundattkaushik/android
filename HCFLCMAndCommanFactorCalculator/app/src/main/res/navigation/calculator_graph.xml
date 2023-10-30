@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/calculator_graph"
+    app:startDestination="@id/homePage">
+
+    <fragment
+        android:id="@+id/homePage"
+        android:name="com.mycal.hcflcmandcommanfactorcalculator.HomePage"
+        android:label="fragment_home_page"
+        tools:layout="@layout/fragment_home_page" >
+        <action
+            android:id="@+id/action_homePage_to_twoNumberHCF"
+            app:destination="@id/twoNumberHCF" />
+        <action
+            android:id="@+id/action_homePage_to_threeNumberHCF"
+            app:destination="@id/threeNumberHCF" />
+        <action
+            android:id="@+id/action_homePage_to_twoNumberLCM"
+            app:destination="@id/twoNumberLCM" />
+        <action
+            android:id="@+id/action_homePage_to_threeNumberLCM"
+            app:destination="@id/threeNumberLCM" />
+        <action
+            android:id="@+id/action_homePage_to_primeFactorsOfNumber"
+            app:destination="@id/primeFactorsOfNumber" />
+        <action
+            android:id="@+id/action_homePage_to_divisibleByNumber"
+            app:destination="@id/divisibleByNumber" />
+    </fragment>
+    <fragment
+        android:id="@+id/twoNumberHCF"
+        android:name="com.mycal.hcflcmandcommanfactorcalculator.TwoNumberHCF"
+        android:label="fragment_two_number_h_c"
+        tools:layout="@layout/fragment_two_number_h_c" />
+    <fragment
+        android:id="@+id/threeNumberHCF"
+        android:name="com.mycal.hcflcmandcommanfactorcalculator.ThreeNumberHCF"
+        android:label="fragment_three_number_h_c"
+        tools:layout="@layout/fragment_three_number_h_c" />
+    <fragment
+        android:id="@+id/twoNumberLCM"
+        android:name="com.mycal.hcflcmandcommanfactorcalculator.TwoNumberLCM"
+        android:label="fragment_two_number_l_c_m"
+        tools:layout="@layout/fragment_two_number_l_c_m" />
+    <fragment
+        android:id="@+id/threeNumberLCM"
+        android:name="com.mycal.hcflcmandcommanfactorcalculator.ThreeNumberLCM"
+        android:label="fragment_three_number_l_c_m"
+        tools:layout="@layout/fragment_three_number_l_c_m" />
+    <fragment
+        android:id="@+id/primeFactorsOfNumber"
+        android:name="com.mycal.hcflcmandcommanfactorcalculator.PrimeFactorsOfNumber"
+        android:label="fragment_prime_factors_of_number"
+        tools:layout="@layout/fragment_prime_factors_of_number" />
+    <fragment
+        android:id="@+id/divisibleByNumber"
+        android:name="com.mycal.hcflcmandcommanfactorcalculator.DivisibleByNumber"
+        android:label="fragment_divisible_by_number"
+        tools:layout="@layout/fragment_divisible_by_number" />
+</navigation>
